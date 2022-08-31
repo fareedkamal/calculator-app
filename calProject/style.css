@@ -1,0 +1,53 @@
+.display {
+    background-color: #e7ffcc;
+    border-radius: 6px;
+    font-size: xxx-large;
+    padding: 15px 15px;
+}
+
+.calBody {
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: #af6100;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    padding: 50px 30px;
+    gap: 14px;
+    text-align: end;
+}
+
+.buttonsContainer {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.buttonsContainer button {
+    border-radius: 29px;
+    font-size: xx-large;
+}
+button.operator {
+    background-color: #ffc05f;
+}
+
+* {
+    border: none;
+}
+
+button.operator:hover {
+    background-color: #d5a151;
+}
+
+button.operator:active {
+    background-color: #9e783c;
+}
+
+button:hover {
+    background-color: #c5c5c5;
+}
+
+button:active {
+    background-color: #8b8b8b;
+}
